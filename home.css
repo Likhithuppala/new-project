@@ -1,0 +1,55 @@
+.navig{
+    background-color: #000000;
+    color:#fff ;
+    text-align : center;
+    height: 70px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.title{
+    width: 50%;
+    font-size: 24px;
+    font-weight: bold;
+    color: white;
+    display: flex;
+    margin-left: 30px;
+    margin-top: 20px;
+}
+.main-body{
+    text-align: center;
+    font-size: 35px;
+    font-weight: bold;
+    color: rgb(5, 5, 5);
+    margin-top: 100px;
+}
+.second{
+    display: flex;
+    color: white;
+    height: 70px;
+    width: 50%;
+    flex-direction: row;
+    justify-content: flex-end;
+    gap: 20px;
+    align-items: center;
+}
+.my-service{
+    display: flex;
+    color: white;
+}
+.help{
+    display: flex;
+    margin-right: 40px;
+    color: white;
+}
+.btn{
+    padding: 20px 40px;
+    background-color: #2f0cf7;
+    color: white;
+    border: none;
+    height: 10px;
+    width: 20px;
+    border-radius: 10px;
+    cursor: pointer;
+    margin-right: 10px;
+}

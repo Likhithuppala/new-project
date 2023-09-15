@@ -1,6 +1,6 @@
 .navig{
     background-color: #000000;
-    color:#fff ;
+    color:#796dd4 ;
     text-align : center;
     height: 70px;
     display: flex;
@@ -9,23 +9,29 @@
 }
 .title{
     width: 50%;
-    font-size: 24px;
+    font-size: 34px;
     font-weight: bold;
-    color: white;
+    color: rgb(255, 255, 255);
     display: flex;
     margin-left: 30px;
     margin-top: 20px;
 }
 .main-body{
     text-align: center;
-    font-size: 35px;
+    font-size: 64px;
     font-weight: bold;
-    color: rgb(5, 5, 5);
-    margin-top: 100px;
+    color: rgb(10, 10, 10);
+    margin-top:0px;
+    padding: 180px;
+}
+.image{
+    background-image: url("bg img.jpg");
+    background-size: cover;
+    height:560px;
 }
 .second{
     display: flex;
-    color: white;
+    color: rgb(249, 253, 7);
     height: 70px;
     width: 50%;
     flex-direction: row;
@@ -35,10 +41,11 @@
 }
 .my-service{
     display: flex;
-    color: white;
+    color: rgb(242, 7, 183);
 }
 .help{
     display: flex;
+    justify-content: center;
     margin-right: 40px;
     color: white;
 }
@@ -47,7 +54,7 @@
     background-color: #2f0cf7;
     color: white;
     border: none;
-    height: 10px;
+    height: 0px;
     width: 20px;
     border-radius: 10px;
     cursor: pointer;
